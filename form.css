@@ -1,0 +1,38 @@
+.formulario{
+    background-color:white;
+    width:20%;
+    height: 10%;
+    margin:auto;
+    border:none;
+    border-radius: 1%;
+    padding-top: 15px;
+    padding-right:25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+body{
+    background-color: darkcyan;
+}
+
+.formulario input{
+    width:100%
+}
+
+button{
+    width: 102%;
+    color:white;
+    background-color:cadetblue;
+    border:none;
+}
+
+/* pseudo clase*/
+button:hover{
+    color:yellow;
+}
+
+.formulario input:focus{
+    color:blue;
+}
+
