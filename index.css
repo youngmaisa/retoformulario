@@ -1,0 +1,55 @@
+body{
+    background-color:darkturquoise;
+}
+
+.formulario header h1{
+    color:red;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px;
+}
+
+.formulario{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    text-align: justify;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.formulario input{
+    padding: 15px 22px;
+    color:dimgray;
+    width: 30%;
+    margin-left: 100px;
+    margin-right: 30px;
+    border:0;
+}
+
+
+.formulario textarea{
+    width: 80%;
+    margin-left: 100px;
+    margin-right:10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    color:dimgray;
+}
+
+.formulario #boton{
+    background-color:midnightblue;
+    padding: 8px 22px;
+    color:white;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+    margin-left:500px;
+}
+
+div.contenedor{
+    width: 33.33%;
+}
+
