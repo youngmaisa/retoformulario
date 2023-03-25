@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form de rama</title>
+</head>
+<body>
+    
+    <div class="form">
+        <form action="">
+            <label for="nombre">Nombre: </label><br>
+            <input type="text" id="nombre" name="nombre" autocomplete="off" pattern="[A-Za-z0-9]+"><br>
+    
+            <label for="apellido">Apellido: </label><br>
+            <input type="text" name="apellido" id="apellido"><br>
+    
+            <label for="edad">Edad: </label><br>
+            <input type="number" id="edad" name="edad" min="18" max="80"autocomplete="off"><br>
+    
+            <label for="genero">Sexo: </label><br>
+            <input type="text" id="genero" name="genero"autocomplete="off"><br>
+    
+            <label for="dni">DNI: </label><br>
+            <input type="text" id="dni" name="dni" minlength="8"autocomplete="off"><br>
+    
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email"autocomplete="off"><br>
+    
+            <div>
+                <button type="Submit">Enviar</button>
+            </div>
+           
+        </form>
+    </div>
+   
+</body>
+</html>

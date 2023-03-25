@@ -1,0 +1,13 @@
+body{
+    background-color: darkslategrey;
+}
+
+.form{
+    background-color: white;
+    padding-right:25px;
+    padding-left: 25px;
+    border:2px;
+    border-radius: 3%;
+    margin:auto;
+    width:30%;
+}
